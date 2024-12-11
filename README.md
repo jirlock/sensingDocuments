@@ -39,7 +39,6 @@ Sensirion社のSCD40を使用したセンサーモジュールをESP32（マイ�
 
 <img src='images/envUnit.png' width='50%'>
 
-
 ### 5-2. 人流センシング
 #### センシング内容
 廊下や共有スペースの水平面二次元点群データを取得することで、プライバシーを確保しながら、人の動きや流れ、空間の使われ方を把握し、マネジメントや空間価値の向上に繋げる。
@@ -58,12 +57,13 @@ YDLidar社のTG15をRaspberry Piに接続。2D点群データをWiFi経由で学
 
 <img src='images/contactSensor.png' width='50%'>
 
+
 ## 6. センシング範囲
 工学部一号館の建築側（東側）、一階から三階の廊下・共有スペース・講義室などを対象とする。また、使用者の同意が取れる範囲においては、研究室や院生室なども対象とする。
 
-<img src="images/en01_03f_sensingPlan.png">
-<img src="images/en01_02f_sensingPlan.png">
-<img src="images/en01_01f_sensingPlan.png">
+![](/images/en01_03f_sensingPlan.png)
+![](/images/en01_02f_sensingPlan.png)
+![](/images/en01_01f_sensingPlan.png)
 
 ## 7. データの可視化と公開範囲について
 
@@ -73,9 +73,8 @@ YDLidar社のTG15をRaspberry Piに接続。2D点群データをWiFi経由で学
 - UIの具体的な詳細に関しては検討中。
 - 平面図はデフォルメされたものを使用する予定。
 
-<img src='images/sensorVisImage2.png' alt='' title='キャプション'/>
-<em>キャプション</em>
-
+![](/images/sensorVisImage2.png)
+*可視化イメージ*
 
 ### 公開範囲について
 - 可視化ページを閲覧できるのは、学内ネットワークからのみ
