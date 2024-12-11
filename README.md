@@ -6,6 +6,7 @@
 また空間価値向上を目指し、リアルタイムな情報を学内限定で可視化することで、行動変容を促す。
 その様子を人流計測およびアンケート調査などから把握することで、空間価値評価手法とキャンパス・建物マネジメント技術の確立を目指す。
 
+
 ## 2. 目的
 - 多様なセンシングの手法を確立することで、空間価値創造に寄与する
 - 建築に関する多様なセンシングデータの取得と公開により、データそのものの価値を高める
@@ -61,9 +62,10 @@ YDLidar社のTG15をRaspberry Piに接続。2D点群データをWiFi経由で学
 ## 6. センシング範囲
 工学部一号館の建築側（東側）、一階から三階の廊下・共有スペース・講義室などを対象とする。また、使用者の同意が取れる範囲においては、研究室や院生室なども対象とする。
 
-![](/images/en01_03f_sensingPlan.png)
-![](/images/en01_02f_sensingPlan.png)
-![](/images/en01_01f_sensingPlan.png)
+<img src='images/en01_03f_sensingPlan.png'>
+<img src='images/en01_02f_sensingPlan.png'>
+<img src='images/en01_01f_sensingPlan.png'>
+
 
 ## 7. データの可視化と公開範囲について
 
@@ -73,8 +75,7 @@ YDLidar社のTG15をRaspberry Piに接続。2D点群データをWiFi経由で学
 - UIの具体的な詳細に関しては検討中。
 - 平面図はデフォルメされたものを使用する予定。
 
-![](/images/sensorVisImage2.png)
-*可視化イメージ*
+<img src='images/sensorVisImage2.png'>
 
 ### 公開範囲について
 - 可視化ページを閲覧できるのは、学内ネットワークからのみ
