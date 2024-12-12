@@ -38,7 +38,7 @@
 #### 設置するセンサーユニット
 Sensirion社のSCD40を使用したセンサーモジュールをESP32（マイコン）に接続。CO2・温度・湿度データをWiFi経由で学内サーバにアップロードする。
 
-<img src='images/envUnit.png' width='100%'>
+<img src='images/envUnit.png' width='50%'>
 
 ### 5-2. 人流センシング
 #### センシング内容
@@ -47,7 +47,7 @@ Sensirion社のSCD40を使用したセンサーモジュールをESP32（マイ�
 #### 設置するセンサーユニット
 YDLidar社のTG15をRaspberry Piに接続。2D点群データをWiFi経由で学内サーバにアップロードする。
 
-<img src='images/lidarUnit.png' width='100%'></image>
+<img src='images/lidarUnit.png' width='50%'></image>
 
 <img src='images/lidarSampleImage.png'></image>
 
@@ -58,7 +58,7 @@ YDLidar社のTG15をRaspberry Piに接続。2D点群データをWiFi経由で学
 #### 設置するセンサーユニット
 磁石で反応する開閉センサーをRaspberry Piに接続。開閉状態をWiFi経由で学内サーバにアップロードする。
 
-<img src='images/contactSensor.png' width='100%'>
+<img src='images/contactSensor.png' width='50%'>
 
 
 ## 6. センシング範囲
